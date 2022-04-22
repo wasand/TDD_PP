@@ -13,3 +13,11 @@ class Calc(object):
     @staticmethod
     def int_min(num1, num2):
         return min(num1, num2)
+
+    @staticmethod
+    def is_positive(num2):
+        if num2 > 0:
+            return True
+        else:
+            return False
+
