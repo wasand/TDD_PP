@@ -8,8 +8,4 @@ class Calc(object):
 
     @staticmethod
     def int_max(num1, num2):
-        result = num1
-        if num1 > num2:
-            return result
-        else:
-            return num2
+        return max(num1, num2)
