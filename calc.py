@@ -2,7 +2,6 @@
 
 class Calc(object):
 
-
-    def add( num1, num2):
-
+    @staticmethod
+    def add(num1, num2):
         return num1 + num2
