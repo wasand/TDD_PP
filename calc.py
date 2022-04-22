@@ -12,7 +12,4 @@ class Calc(object):
 
     @staticmethod
     def int_min(num1, num2):
-        result = num1
-        if num1 > num2:
-            result = num2
-        return result
+        return min(num1, num2)
