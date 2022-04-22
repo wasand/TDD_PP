@@ -13,4 +13,5 @@ def test_int_max():
     assert Calc.int_max(num1, num2) == 2
 
 
-
+def test_int_min():
+    assert Calc.int_min(num1, num2) == 1
