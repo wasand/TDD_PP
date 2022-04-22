@@ -9,3 +9,10 @@ class Calc(object):
     @staticmethod
     def int_max(num1, num2):
         return max(num1, num2)
+
+    @staticmethod
+    def int_min(num1, num2):
+        result = num1
+        if num1 > num2:
+            result = num2
+        return result
