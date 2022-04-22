@@ -16,8 +16,4 @@ class Calc(object):
 
     @staticmethod
     def is_positive(num2):
-        if num2 > 0:
-            return True
-        else:
-            return False
-
+        return num2 > 0
