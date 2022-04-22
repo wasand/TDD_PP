@@ -15,3 +15,8 @@ def test_int_max():
 
 def test_int_min():
     assert Calc.int_min(num1, num2) == 1
+
+
+def test_is_positive():
+    assert Calc.is_positive(num2) is True
+
